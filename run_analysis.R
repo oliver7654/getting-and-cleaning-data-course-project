@@ -81,5 +81,5 @@ summary <- tidy_data %>%
 if (!file.exists("output")) {
   dir.create("output")
 }
-write.csv(tidy_data, file.path("output", "har-tidy.csv"), row.names = FALSE)
-write.csv(summary, file.path("output", "har-summary.csv"), row.names = FALSE)
+write.table(tidy_data, file.path("output", "har-tidy.txt"), row.names = FALSE)
+write.table(summary, file.path("output", "har-summary.txt"), row.names = FALSE)

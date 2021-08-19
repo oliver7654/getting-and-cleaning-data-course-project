@@ -48,9 +48,9 @@ or `fBodyGyro-mean()-X` is renamed into `Mean gyroscope x (body, frequency domai
 
 # Result
 
-The transformed dataset is stored into `output/har-tidy.csv`.
+The transformed dataset is stored into `output/har-tidy.txt`.
 A second dataset obtained by aggregating the average of each variable for each subject and activity is stored
-in `output/har-summary.csv`.
+in `output/har-summary.txt`.
 
 Both files contain the following columns:
 - `subjectId`: A unique id of the person carrying out the observed activity
